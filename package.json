@@ -32,5 +32,17 @@
     "eslint-plugin-vue": "^8.2.0",
     "postcss": "^8.4.4",
     "prettier": "^2.5.1"
-  }
+  },
+  "description": "### Repo",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosmob3/cpnt201-a4.git"
+  },
+  "author": "Bryan Velasco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cosmob3/cpnt201-a4/issues"
+  },
+  "homepage": "https://github.com/cosmob3/cpnt201-a4#readme"
 }
