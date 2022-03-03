@@ -56,22 +56,22 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 
-  // nuxt/image configuration
-  image: {
-    // Options
-  },
+//   // nuxt/image configuration
+//   image: {
+//     // Options
+//   },
 
-  // svg-module configuration
-  svg: {
-    vueSvgLoader: {
-        // vue-svg-loader options
-    },
-    svgSpriteLoader: {
-        // svg-sprite-loader options
-    },
-    fileLoader: {
-        // file-loader options
-    }
-}
+//   // svg-module configuration
+//   svg: {
+//     vueSvgLoader: {
+//         // vue-svg-loader options
+//     },
+//     svgSpriteLoader: {
+//         // svg-sprite-loader options
+//     },
+//     fileLoader: {
+//         // file-loader options
+//     }
+// }
 
 }
