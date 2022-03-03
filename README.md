@@ -37,7 +37,7 @@
    9. keep getting an error associated with ./node_modules/@storyblok/nuxt/dist/storyblok-nuxt.mjs
    
    
-   ![VScode Error](https://user-images.githubusercontent.com/97326786/156517309-1c570a8d-4173-4bf8-9ab6-3f2154c0b970.png)
+  ![VScode Error](https://user-images.githubusercontent.com/97326786/156517309-1c570a8d-4173-4bf8-9ab6-3f2154c0b970.png)
 
    10. ran a few audits... more det. in readme
    ![Error2](https://user-images.githubusercontent.com/97326786/156517440-dcb4abeb-10cb-479f-bfc0-0f666ca7aaa1.png)
