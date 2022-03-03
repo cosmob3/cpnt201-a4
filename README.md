@@ -35,9 +35,13 @@
    8. installed nuxtjs/svg
 
    9. keep getting an error associated with ./node_modules/@storyblok/nuxt/dist/storyblok-nuxt.mjs
-
+   
+   
+   ![VScode Error](https://user-images.githubusercontent.com/97326786/156517309-1c570a8d-4173-4bf8-9ab6-3f2154c0b970.png)
 
    10. ran a few audits... more det. in readme
+   
+   ![newError](https://user-images.githubusercontent.com/97326786/156517356-a369c001-f877-495e-a550-8bc5f43d02d9.png)
 
     - After a couple of audits I started getting a different error message referring to the `svg-module`. Wasn't too sure what to do. I was looking at the Error seeing if I could fix it.
     - I did a `git status` and that showed me that there had been some changes in my `package.json` & `package-lock.json`.
@@ -45,10 +49,13 @@
     - Checked the svg repo and found out that the current version is '0.4.0'
     - So back to the `package.json` & `package-lock.json`. I went into those files and just added the `4`. 
     - Fixed that one issue at least. 
+    
+    
 
 Still having issues with it. Tried `npm run dev` and it's still giving me this error. But this one I'm not sure how to fix.
 
 
+![Error2](https://user-images.githubusercontent.com/97326786/156517440-dcb4abeb-10cb-479f-bfc0-0f666ca7aaa1.png)
 
 ## Build Setup
 
