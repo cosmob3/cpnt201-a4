@@ -1,29 +1,54 @@
 # CPNT-201 / Nuxt Framework Setup a-4 / Bryan Velasco
 
-### Repo
+## Repo
 
-[Github Repo]()
+[Github Repo](https://github.com/cosmob3/cpnt201-a4)
 
-### Attributions
+## Attributions
 
 [npm run serve unsupported code: 'ERR OSSL EVP UNSUPPORTED'](https://www.youtube.com/watch?v=ypHphKXRKAg&t=355s) by FV Tutorial 
 
-### npm package: 
+- Video is in Portuguese but I can understand the language and it really helped. I was having issues just using `npm run dev` because I was running node.js version `17.6.0`. Had to downgrade to `16.14.0 LTS` and it worked just fine.  
+
+## npm package: 
 
 - [svg-module](https://github.com/nuxt-community/svg-module)
 
+- It allows one to upload svg file. The reason you would want to use svg images specially is because they maintain their resolution no matter how big or how small you make them. 
 
-### Commits 
-  1. 
-  2. 
-  3.
-  4.
-  5.
-  6.
-  7.
-  8. keep getting an error associated with ./node_modules/@storyblok/nuxt/dist/storyblok-nuxt.mjs
-  9.
-  10.
+
+## Commits 
+   1. inital commit
+
+   2. npm project initialized
+
+   3. added 'tailwind.config.js' file
+
+   4. added assets/css/tailwind.css
+
+   5. fully installed and set up tailwind
+
+   6. Installed nuxt/image
+
+   7. installed storyblok
+
+   8. installed nuxtjs/svg
+
+   9. keep getting an error associated with ./node_modules/@storyblok/nuxt/dist/storyblok-nuxt.mjs
+
+
+   10. ran a few audits... more det. in readme
+
+    - After a couple of audits I started getting a different error message referring to the `svg-module`. Wasn't too sure what to do. I was looking at the Error seeing if I could fix it.
+    - I did a `git status` and that showed me that there had been some changes in my `package.json` & `package-lock.json`.
+    - When I went and checked them and found svg, it looked like this `@nuxtjs/svg": "^0.0.0"`and if it's all zeros then its not pulling anything. 
+    - Checked the svg repo and found out that the current version is '0.4.0'
+    - So back to the `package.json` & `package-lock.json`. I went into those files and just added the `4`. 
+    - Fixed that one issue at least. 
+
+Still having issues with it. Tried `npm run dev` and it's still giving me this error. But this one I'm not sure how to fix.
+
+
 
 ## Build Setup
 
