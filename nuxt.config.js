@@ -34,6 +34,11 @@ export default {
     '@nuxtjs/tailwindcss',
     // https://image.nuxtjs.org/
     '@nuxt/image',
+    // https://github.com/storyblok/storyblok-nuxt
+    ["@storyblok/nuxt/module", { accessToken: "<your-access-token>" }],
+    // https://github.com/nuxt-community/svg-module
+    "@nuxtjs/svg",
+
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -50,4 +55,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  image: {
+    // Options
+  }
 }
