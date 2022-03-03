@@ -21,7 +21,7 @@
   5.
   6.
   7.
-  8.
+  8. keep getting an error associated with ./node_modules/@storyblok/nuxt/dist/storyblok-nuxt.mjs
   9.
   10.
 
